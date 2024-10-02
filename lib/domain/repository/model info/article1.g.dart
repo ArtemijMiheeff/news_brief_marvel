@@ -1,0 +1,47 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'article1.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Article1 _$ArticleFromJson(Map<String, dynamic> json) => Article1(
+      // make: json['make'] as String,
+      // model: json['model'] as String,
+      // year: json['year'] as String,
+      // type: json['type'] as String,
+      // displacement: json['displacement'] as String,
+      // engine: json['engine'] as String,
+      // power: json['power'] as String,
+      // cooling: json['cooling'] as String,
+      // gearbox: json['gearbox'] as String,
+      // transmission: json['transmission'] as String,
+      // total_weight: json['total_weight'] as String,
+      // fuel_capacity: json['fuel_capacity'] as String,
+      id: json['id'] as String,
+      name: json['name'] as String,
+      description: json['description'] as String,
+      firstAppearance: json['firstAppearance'] as String,
+      creator: json['creator'] as String,
+    );
+
+Map<String, dynamic> _$ArticleToJson(Article1 instance) => <String, dynamic>{
+      // 'make': instance.make,
+      // 'model': instance.model,
+      // 'year': instance.year,
+      // 'type': instance.type,
+      // 'displacement': instance.displacement,
+      // 'engine': instance.engine,
+      // 'power': instance.power,
+      // 'cooling': instance.cooling,
+      // 'gearbox': instance.gearbox,
+      // 'transmission': instance.transmission,
+      // 'total_weight': instance.total_weight,
+      // 'fuel_capacity': instance.fuel_capacity,
+      'id': instance.id,
+      'name': instance.name,
+      'description': instance.description,
+      'firstAppearance': instance.firstAppearance,
+      'creator': instance.creator,
+    };
